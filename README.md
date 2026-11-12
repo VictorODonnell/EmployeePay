@@ -30,11 +30,11 @@ Files
 Main.java: collects input with a Scanner, creates the correct object, and displays the salary
 Employee.java: the parent class with calculateSalary() returning 0.0
 
-# FullTimeEmployee.java: child class that returns basePay + bonus
+FullTimeEmployee.java: child class that returns basePay + bonus
 PartTimeEmployee.java: child class that returns hourlyRate * hoursWorked
 Code Structure
 
-# Employee (parent class) has a calculateSalary() method that returns 0.0. FullTimeEmployee (child class) uses extends to inherit from Employee, adds basePay and bonus fields, and overrides calculateSalary() to return basePay + bonus. PartTimeEmployee (child class) also extends Employee, adds hourlyRate and hoursWorked fields, and overrides calculateSalary() to return hourlyRate * hoursWorked. Main uses a Scanner to collect input, creates the correct object, and calls calculateSalary().
+Employee (parent class) has a calculateSalary() method that returns 0.0. FullTimeEmployee (child class) uses extends to inherit from Employee, adds basePay and bonus fields, and overrides calculateSalary() to return basePay + bonus. PartTimeEmployee (child class) also extends Employee, adds hourlyRate and hoursWorked fields, and overrides calculateSalary() to return hourlyRate * hoursWorked. Main uses a Scanner to collect input, creates the correct object, and calls calculateSalary().
 
 # Code Explanation
 java
