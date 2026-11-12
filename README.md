@@ -6,9 +6,8 @@
 
 Valid employee types are full-time and part-time. Any other input prints "Invalid employee type" and the program ends.
 
-Example Output
-
-# Full time:
+# Example Output
+Full time:
 
 Enter employee type (full-time / part-time):
 full-time
@@ -18,7 +17,7 @@ Enter bonus:
 500
 Monthly salary: $4500.00
 
-# Part time:
+Part time:
 
 Enter employee type (full-time / part-time):
 part-time
