@@ -60,3 +60,8 @@ In Main, the variable is declared as an Employee, and either subclass can be ass
 Author
 
 Victor
+
+
+## Code Review
+- **Reviewed by:** [Zero Moore]
+- **Status:** Checked code. Inheritance (`extends`), Scanner input, and calorie calculations are all correct and working!
